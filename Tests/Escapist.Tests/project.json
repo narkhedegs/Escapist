@@ -1,0 +1,33 @@
+{
+    "version": "0.0.0",
+    "title": "Escapist.Tests",
+    "description": "Unit tests for Escapist.",
+    "authors": [
+        "narkhedegs@gmail.com"
+    ],
+    "owners": [
+        "narkhedegs@gmail.com"
+    ],
+    "copyright": "Copyright (C) narkhedegs@gmail.com",
+    "tags": [
+        "process",
+        "arguments",
+        "escaping"
+    ],
+    "projectUrl": "https://github.com/narkhedegs/Escapist",
+    "licenseUrl": "",
+    "iconUrl": "",
+
+    "frameworks": {
+        "net20": { },
+        "net35": { },
+        "net40": { },
+        "net45": { },
+        "net451": { },
+        "net452": { },
+        "net46": { }
+    },
+    "dependencies": {
+        "Escapist": "0.0.0"
+    }
+}

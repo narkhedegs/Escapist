@@ -1,0 +1,30 @@
+﻿{
+  "version": "0.0.0",
+  "title": "Escapist",
+  "description": "Escapist.",
+  "authors": [
+    "narkhedegs@gmail.com"
+  ],
+  "owners": [
+    "narkhedegs@gmail.com"
+  ],
+  "copyright": "Copyright (C) narkhedegs@gmail.com",
+  "tags": [
+    "process",
+    "arguments",
+    "escaping"
+  ],
+  "projectUrl": "https://github.com/narkhedegs/Escapist",
+  "licenseUrl": "https://raw.githubusercontent.com/narkhedegs/Escapist/master/LICENSE",
+  "iconUrl": "https://raw.githubusercontent.com/narkhedegs/Escapist/master/icon.png",
+
+  "frameworks": {
+    "net20": { },
+    "net35": { },
+    "net40": { },
+    "net45": { },
+    "net451": { },
+    "net452": { },
+    "net46": { }
+  }
+}
