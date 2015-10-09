@@ -20,14 +20,39 @@
 
     "frameworks": {
         "net20": { },
-        "net35": { },
-        "net40": { },
-        "net45": { },
-        "net451": { },
-        "net452": { },
-        "net46": { }
+        "net35": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        },
+        "net40": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        },
+        "net45": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        },
+        "net451": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        },
+        "net452": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        },
+        "net46": {
+            "dependencies": {
+                "Moq": "4.2.1507.118"
+            }
+        }
     },
     "dependencies": {
-        "Escapist": "0.0.0"
+        "Escapist": "0.0.0",
+        "NUnit": "2.6.4"
     }
 }
