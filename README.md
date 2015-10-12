@@ -1,6 +1,6 @@
 # Escapist
 
-Escapist.
+Escape command line arguments in .NET.
 
 <h1 align="center">
   <br>
@@ -10,6 +10,8 @@ Escapist.
 </h1>
 
 ### Purpose
+
+Escaping command line arguments is fairly complex. Escapist encapsulates this complexity. 
 
 ### Requirements
 
@@ -25,6 +27,19 @@ Escapist is available at [Nuget](https://www.nuget.org/packages/Escapist/) and c
 ```cs
 using Narkhedegs;
 ```
+```cs
+var escapist = new Escapist();
+
+var arguments = new [] { " ", "hello", @"\hello\12\3\", @"hello world" };
+
+var escapedArguments = escapist.Escape(arguments);
+// "" "", hello, \hello\12\3\, "hello world"
+```
+
+# To Do
+
+ - Implement escape strategy for mac operating system.
+ - Implement escape strategy for unix operating system.
 
 # License
 
